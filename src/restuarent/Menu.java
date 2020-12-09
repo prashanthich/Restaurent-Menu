@@ -18,4 +18,10 @@ public class Menu {
     public void setLastUpDate(String aLastUpDate){
         this.lastUpDate = aLastUpDate;
     }
+
+    public Menu(ArrayList<MenuItem> menuItems, String lastUpDate){
+        this.menuItems = menuItems;
+        this.lastUpDate = lastUpDate;
+    }
+
 }

@@ -30,4 +30,10 @@ public class MenuItem {
     public void setItNewItem(boolean aIsItNewItem){
         this.isItNewItem = aIsItNewItem;
     }
+    public  MenuItem(String description,String category,double price, boolean isItNewItem){
+        this.description =description;
+        this.category = category;
+        this.price = price;
+        this.isItNewItem = isItNewItem;
+    }
 }
